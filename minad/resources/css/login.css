@@ -1,0 +1,16 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.title{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+}
+.slogan{
+    padding: 4px;
+    text-align:center;
+    color: green;
+    font-size: 18px;
+    font-family:'Rajdhani', sans-serif;
+}
