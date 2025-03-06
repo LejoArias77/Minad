@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JB S.A.S.</title>
-  <link rel="stylesheet" href="../resources/css/index.css">
+  <link rel="stylesheet" href="{{ asset('css/index.css') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
@@ -16,14 +16,14 @@
 <body>
   <!------------------------header logo ------------------------>
   <section class="head">
-    <div class="logo"><img src="../resources/img/logoJB.svg"></div>
+    <div class="logo"><img src="{{ asset('img/logoJB.svg') }}"></div>
     <header>
       <nav>
         <a href="#start">INICIO</a>
         <a href="#about">SOBRE NOSOTROS</a>
         <a href="#services">SERVICIOS</a>
         <a href="#contacto">CONTACTO</a>
-        <a class="intranet" href="{{ url('/login') }}">INTRANET</a>
+        <a class="intranet" href="{{ url('login') }}">INTRANET</a>
       </nav>
     </header>
   </section>
@@ -31,8 +31,8 @@
   <!---------------header banner --------------------------------->
 
   <div class="header-banner">
-    <img src="../resources/img/btnWhatsapp.png" class="btn-whatsapp" alt="whatsapp">
-    <img src="../resources/img/banner.png" class="banner">
+    <img src="{{ asset('img/btnWhatsapp.png') }}" class="btn-whatsapp" alt="whatsapp">
+    <img src="{{ asset('img/banner.png') }}" class="banner">
   </div>
 
   <!--------------- start page ---------------------------------->
@@ -55,7 +55,7 @@
       </p>
     </div>
     <div class="adviser">
-      <img src="../resources/img/asesoria.jpg" alt="">
+      <img src="{{ asset('img/asesoria.jpg') }}" alt="">
     </div>
   </section>
 
@@ -66,9 +66,9 @@
       <hr>
     </div>
     <div class="cont">
-      <img src="../resources/img/brochure/1.png" alt="">
-      <img src="../resources/img/brochure/2.png" alt="">
-      <img src="../resources/img/brochure/3.png" alt="">
+      <img src="{{ asset('img/brochure/1.png') }}" alt="">
+      <img src="{{ asset('img/brochure/2.png') }}" alt="">
+      <img src="{{ asset('img/brochure/3.png') }}" alt="">
     </div>
   </section>
 
@@ -79,7 +79,7 @@
     <main>
       <div class="card">
         <div class="card__image-container">
-          <img src="../resources/img/cards/card1.jpeg" />
+          <img src="{{ asset('img/cards/card1.jpeg') }}" />
         </div>
         <div class="card__content">
           <p class="card__title text--medium">
@@ -92,7 +92,7 @@
       </div>
       <div class="card">
         <div class="card__image-container">
-          <img src="../resources/img/cards/card2.jpeg" />
+          <img src="{{ asset('img/cards/card2.jpeg') }}" />
         </div>
         <div class="card__content">
           <p class="card__title text--medium">
@@ -105,7 +105,7 @@
       </div>
       <div class="card">
         <div class="card__image-container">
-          <img src="../resources/img/cards/card3.jfif" />
+          <img src="{{ asset('img/cards/card3.jfif') }}" />
         </div>
         <div class="card__content">
           <p class="card__title text--medium">
@@ -256,7 +256,7 @@
   </section>
 
   <div class="calidad">
-    <img src="../resources/img/imgService.png">
+    <img src="{{ asset('img/imgService.png') }}">
     <h2>CALIDAD Y SERVICIO</h2>
   </div>
 
@@ -274,7 +274,7 @@
               SAS</strong>
             garantiza un servicio integral y de primera categoría.</p>
           <div class="footer-logo">
-            <img src="../resources/img/logoJBack1.svg">
+            <img src="{{ asset('img/logoJBack1.svg') }}">
           </div>
         </div>
       </div>
