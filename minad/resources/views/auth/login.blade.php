@@ -25,7 +25,6 @@
             </div>
             <div class="col-md-6 col-lg-7 d-flex align-items-center">
               <div class="card-body p-4 p-lg-5 text-black">
-
                 <form method="POST" action="{{ route('login') }}">
                   @csrf
                   <div class="d-flex justify-content-center mb-4 pb-4">
@@ -35,7 +34,7 @@
                   <h5 class="title fw-normal mb-3 pb-3" ">Ingresa a tu cuenta</h5>
 
                   <div data-mdb-input-init class="form-outline mb-4">
-<<<<<<< HEAD:minad/resources/views/auth/login.blade.php
+
                   <input type="email" id="email" class="form-control form-control-lg @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="Ingrese su usuario" required autofocus />
                   @error('email')
                         <div class="invalid-feedback">{{ $message }}</div>
@@ -51,18 +50,6 @@
 
                   <div class="pt-1 mb-4">
                   <button type="submit" class="btn btn-secondary btn-lg btn-block">Ingresar</button>
-=======
-                    <input type="email" id="form2Example17" class="form-control form-control-lg" placeholder="Ingrese su usuario"/>
-                  </div>
-
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="password" id="form2Example27" class="form-control form-control-lg" placeholder="Ingrese la contraseña"/>
-                  </div>
-
-                  <div class="pt-1 mb-4">
-                    <button data-mdb-button-init data-mdb-ripple-init class="btn btn-secondary btn-lg btn-block" type="button" id="btn-login">Ingresar</button>
->>>>>>> db31d84b0d6e4bd1c0583a812c970a889408a970:minad/resources/views/login.blade.php
-                  </div>
                 </form>
 
                 <div class="d-flex justify-content-center">
